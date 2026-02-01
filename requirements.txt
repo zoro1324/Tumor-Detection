@@ -1,0 +1,35 @@
+# Deep Learning Frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+timm>=0.9.0                    # Pre-trained transformer models (ViT, Swin)
+
+# Federated Learning
+flwr>=1.7.0                    # Flower federated learning framework
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+pillow>=10.0.0
+opencv-python>=4.8.0           # For CLAHE and advanced image processing
+scikit-learn>=1.3.0
+albumentations>=1.3.0          # Advanced augmentation library
+
+# Visualization & Logging
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tensorboard>=2.13.0
+plotly>=5.14.0
+
+# Configuration & Utils
+pyyaml>=6.0
+tqdm>=4.65.0
+wandb>=0.15.0                  # Optional: Weights & Biases for experiment tracking
+
+# Interpretability
+grad-cam>=1.4.0                # For attention visualization
+captum>=0.6.0                  # PyTorch model interpretability
+
+# Development Tools
+ipykernel>=6.23.0              # For Jupyter notebooks
+black>=23.3.0                  # Code formatting
+pytest>=7.3.0                  # Testing
